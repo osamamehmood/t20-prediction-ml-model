@@ -16,7 +16,7 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:5173",
         "http://localhost:5000",
-        "https://t20worldcup-simulator.replit.app",
+        "https://t20-simulator.replit.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
