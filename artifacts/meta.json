@@ -1,0 +1,14 @@
+{
+  "features": [
+    "team_a_form",
+    "team_b_form",
+    "form_diff",
+    "h2h_win_rate",
+    "elo_a",
+    "elo_b",
+    "elo_diff"
+  ],
+  "train_rows": 2418,
+  "test_rows": 605,
+  "model": "GradientBoostingClassifier + isotonic calibration"
+}

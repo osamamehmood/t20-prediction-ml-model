@@ -1,0 +1,39 @@
+{
+  "tournament": "ICC Men's T20 World Cup 2026",
+  "host_countries": ["India", "Sri Lanka"],
+
+  "groups": {
+    "A": ["India", "Pakistan", "USA", "Namibia", "Netherlands"],
+    "B": ["Australia", "Sri Lanka", "Zimbabwe", "Ireland", "Oman"],
+    "C": ["England", "West Indies", "Italy", "Nepal", "Scotland"],
+    "D": ["South Africa", "New Zealand", "Afghanistan", "Canada", "UAE"]
+  },
+
+  "group_stage": {
+    "points_win": 2,
+    "points_no_result": 1,
+    "tiebreakers": ["points"]
+  },
+
+  "super8": {
+    "groups": {
+      "S1": ["A1", "B2", "C1", "D2"],
+      "S2": ["B1", "A2", "D1", "C2"]
+    },
+    "advance_per_group": 2,
+    "tiebreakers": ["points"]
+  },
+
+  "knockout": {
+    "semi_finals": [
+      ["S1_1", "S2_2"],
+      ["S2_1", "S1_2"]
+    ],
+    "final": [["SF1", "SF2"]]
+  },
+
+  "notes": [
+    "Format modeled as Group Stage -> Super 8 -> Semi-finals -> Final",
+    "Tie-breaks use points only in this version"
+  ]
+}
