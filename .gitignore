@@ -91,3 +91,4 @@ data/cricsheet_t20i_json/
 # Logs
 # ============================
 *.log
+.local/
